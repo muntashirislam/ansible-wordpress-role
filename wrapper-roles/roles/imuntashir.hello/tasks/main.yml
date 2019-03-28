@@ -1,0 +1,4 @@
+---
+# tasks file for imuntashir.hello
+- name: Say hello
+  debug: msg="Hello {{your_name}}"

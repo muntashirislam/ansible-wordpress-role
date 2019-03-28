@@ -1,0 +1,4 @@
+---
+# tasks file for imuntashir.apache
+- name: Install Apache
+  apt: name={{apache2_package_name}} state=present

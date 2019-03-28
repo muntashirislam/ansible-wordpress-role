@@ -1,0 +1,4 @@
+---
+# tasks file for imuntashir.common
+- name: Install required packages
+  ping:
