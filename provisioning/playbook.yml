@@ -4,5 +4,8 @@
   become: true
   roles:
     - imuntashir.wordpress
-  
+  database_name: wordpress
+  database_user: wordpress
+  database_password: mango18374
+
     
